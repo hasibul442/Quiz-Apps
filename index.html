@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name=”robots” content="index, follow">
+        <meta name="description" content="Quiz Apps">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Mohammad Hasibul Hasan">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+
+        <script src="script.js" defer></script>
+
+    </head>
+
+    <body>
+        <div class="container-fluid"id="quiz">
+            <div class="row mt-5">
+                <div class="col-sm-4 mt-5"></div>
+                <div class="col-sm-4 mt-5 " >
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 id="question" class="card-title">Card title</h5>
+                          
+                          <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="a" value="a">
+                            <label class="form-check-label" id="a_text" for="a">
+                              a
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="b" value="b">
+                            <label class="form-check-label" id="b_text" for="b">
+                              b
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="c" value="c">
+                            <label class="form-check-label" id="c_text" for="c">
+                              c
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input answer" type="radio" name="answer" id="d" value="d">
+                            <label class="form-check-label" id="d_text" for="d">
+                              d
+                            </label>
+                          </div>
+
+                          <button id="submit" type="button" class="btn btn-primary" >Next</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
